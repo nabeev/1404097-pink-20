@@ -1,12 +1,145 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body>
+  <body class="page__body">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img src="https://via.placeholder.com/74x23" width="74" height="23" alt="Pink - раскрась свою жизнь">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">
+            Открыть меню
+          </span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a>
+                Главная
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">
+                Фотографии
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">
+                Конкурс
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://htmlacademy.ru">
+                HTML Academy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+    <main class="page-main">
+      <h1 class="visually-hidden">
+        Pink - приложение, которое избавит вас от серых будней
+      </h1>
 
+      <section class="download-offer">
+        <h2 class="dowload-offer__title">
+          Взгляните на жизнь иначе!
+        </h2>
+        <a class="download-offer__button" href="#">
+          Скачать приложение
+        </a>
+        <div class="download-offer_wrapper">
+          <ul class="download-offer__os os-list">
+            <li class="os-list__item os-list__item--ios">
+              <a href="#">Скачать на ios</a>
+            </li>
+            <li class="os-list__item os-list__item--android">
+              <a href="#">Скачать на android</a>
+            </li>
+            <li class="os-list__item os-list__item--windows">
+              <a href="#">Скачать на windows</a>
+            </li>
+          </ul>
+          <p class="download-offer__discription">
+            Доступно для iPhone, iPad, Android,<br>
+            Windows Phone, OS X, Windows 8
+          </p>
+        </div>
+      </section>
+
+      <section class="app-features">
+        <h2 class="visually-hidden">
+          Возможности приложения Pink
+        </h2>
+        <p class="app-features__promotion">
+          Устали от серости мегаполиса?<br>
+          Нам есть что вам предложить!
+        </p>
+        <ul class="app-features__list feature-list">
+          <li class="feature-list__item">
+            <h3 class="feature-list__title">
+              Поднимает настроение
+            </h3>
+            <p class="feature-list__description">
+              Приложение позволит вам победить<br>
+              осеннюю хандру и депрессию<br>
+              буквально в несколько кликов!
+            </p>
+          </li>
+          <li class="feature-list__item">
+            <h3 class="feature-list__title">
+              Меняет мир вокруг
+            </h3>
+            <p class="feature-list__description">
+              Сделайте снимок и украсьте его<br>
+              смайликом или текстовой подписью,<br>
+              чтобы усилить эффект
+            </p>
+          </li>
+          <li class="feature-list__item">
+            <h3 class="feature-list__title">
+              Заводит новых друзей
+            </h3>
+            <p class="feature-list__description">
+              Ставьте лайки, комментируйте,<br>
+              делитесь фотографиями с друзьями и<br>
+              заводите новых
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- В этом задании тут пробел, пока не нужно размечать -->
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <a class="page-footer__logo" href="#">
+          <img src="https://via.placeholder.com/145x40" width="145" height="40" alt="Pink - раскрась свою жизнь">
+        </a>
+        <div class="page-footer__social social">
+          <ul class=social__list>
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#">Читайте в Твиттере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Добавляйтесь в Фейсбук</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="#">Смотрите в Ютюбе</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <span class="copyright__text">Разработано</span>
+          <a class="copyright__link" href="https://htmlacademy.ru">HTML Academy</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
