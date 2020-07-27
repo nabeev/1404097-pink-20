@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Набеев](https://up.htmlacademy.ru/adaptive/20/user/1404097).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Михайлов](https://htmlacademy.ru/profile/id327277).
 
 ---
 
