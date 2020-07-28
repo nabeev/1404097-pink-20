@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body class="page__body">
+  <body>
     <header class="page-header">
       <a class="page-header__logo">
-        <img src="https://via.placeholder.com/74x23" width="74" height="23" alt="Pink - раскрась свою жизнь">
+        <img src="https://via.placeholder.com/74x23" width="74" height="23" alt="Пинк - раскрась свою жизнь">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
+        <button class="main-nav__toggle">
           <span class="visually-hidden">
             Открыть меню
           </span>
@@ -18,9 +19,9 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
-              <a>
+              <span>
                 Главная
-              </a>
+              </span>
             </li>
             <li class="site-list__item">
               <a href="photo.html">
@@ -47,15 +48,21 @@
         Pink - приложение, которое избавит вас от серых будней
       </h1>
 
-      <section class="download-offer">
-        <h2 class="dowload-offer__title">
+      <section class="hero">
+        <h2 class="hero__title">
           Взгляните на жизнь иначе!
         </h2>
-        <a class="download-offer__button" href="#">
+      </section>
+
+      <article class="download">
+        <h2 class="visually-hidden">
+          Ссылки на скачивание приложения Пинк
+        </h2>
+        <a class="download__button" href="#">
           Скачать приложение
         </a>
-        <div class="download-offer_wrapper">
-          <ul class="download-offer__os os-list">
+        <div class="download__wrapper">
+          <ul class="download__os os-list">
             <li class="os-list__item os-list__item--ios">
               <a href="#">Скачать на ios</a>
             </li>
@@ -66,54 +73,59 @@
               <a href="#">Скачать на windows</a>
             </li>
           </ul>
-          <p class="download-offer__discription">
-            Доступно для iPhone, iPad, Android,<br>
+          <p class="download__discription">
+            Доступно для iPhone, iPad, Android,
             Windows Phone, OS X, Windows 8
           </p>
         </div>
-      </section>
+      </article>
 
       <section class="app-features">
         <h2 class="visually-hidden">
           Возможности приложения Pink
         </h2>
         <p class="app-features__promotion">
-          Устали от серости мегаполиса?<br>
+          Устали от серости мегаполиса?
           Нам есть что вам предложить!
         </p>
         <ul class="app-features__list feature-list">
           <li class="feature-list__item">
-            <h3 class="feature-list__title">
+            <h3>
               Поднимает настроение
             </h3>
-            <p class="feature-list__description">
-              Приложение позволит вам победить<br>
-              осеннюю хандру и депрессию<br>
+            <p>
+              Приложение позволит вам победить
+              осеннюю хандру и депрессию
               буквально в несколько кликов!
             </p>
           </li>
           <li class="feature-list__item">
-            <h3 class="feature-list__title">
+            <h3>
               Меняет мир вокруг
             </h3>
-            <p class="feature-list__description">
-              Сделайте снимок и украсьте его<br>
-              смайликом или текстовой подписью,<br>
+            <p>
+              Сделайте снимок и украсьте его
+              смайликом или текстовой подписью,
               чтобы усилить эффект
             </p>
           </li>
           <li class="feature-list__item">
-            <h3 class="feature-list__title">
+            <h3>
               Заводит новых друзей
             </h3>
-            <p class="feature-list__description">
-              Ставьте лайки, комментируйте,<br>
-              делитесь фотографиями с друзьями и<br>
+            <p>
+              Ставьте лайки, комментируйте,
+              делитесь фотографиями с друзьями и
               заводите новых
             </p>
           </li>
         </ul>
       </section>
+
+      <div class="geeting">
+        Всем привет!
+      </div>
+
       <!-- В этом задании тут пробел, пока не нужно размечать -->
     </main>
 
