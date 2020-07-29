@@ -49,7 +49,135 @@
         безбашенное
         путешествие с Пинк
       </h1>
-      <!-- В этом задании тут пробел, пока не нужно размечать -->
+
+      <form class="competition-form" action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          Поделитесь своей историей и получите
+          шанс выиграть ценный приз - 1000
+          миль на вашу бонусную карту!
+        <fieldset class="competition-form__item author-info">
+          <ul class="author-info__list">
+            <li class="author-info__item author-data">
+              <label class="author-data__disc">
+                Фамилия:
+                <input class="author-data__input" type="text" name="author-surname" value="Укажите фамилию *" required>
+              </label>
+            </li>
+            <li class="author-info__item author-data">
+              <label class="author-data__disc">
+                Имя:
+                <input class="author-data__input" type="text" name="author-name" value="Введите ваше имя *" required>
+              </label>
+            </li>
+            <li class="author-info__item author-data">
+              <label class="author-data__disc">
+                Отчество:
+                <input class="author-data__input" type="text" name="author-middle-name" value="Ну и отчество тоже">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="competition-form__item achievement-info">
+          <p class="achievement-info__text">
+            Ваши безбашенные
+            достижения в путешествии
+          </p>
+          <ul class="achievement-info__list">
+            <li class="achievement-info__item achievement-data" >
+              <label class="achievement-data__disc">
+                <input class="achievement-data__input" type="checkbox" name="shark-sefie" checked>
+                Сделал селфи с акулой
+              </label>
+            </li>
+            <li class="achievement-info__item achievement-data" >
+              <label class="achievement-data__disc">
+                <input class="achievement-data__input" type="checkbox" name="burn-on-the-beach" checked>
+                Обгорел на пляже
+              </label>
+            </li>
+            <li class="achievement-info__item achievement-data" >
+              <label class="achievement-data__disc">
+                <input class="achievement-data__input" type="checkbox" name="blessed-by-Chuck">
+                Видел Чака Норриса
+              </label>
+            </li>
+            <li class="achievement-info__item achievement-data" >
+              <label class="achievement-data__disc">
+                <input class="achievement-data__input" type="checkbox" name="buy-souvenirs">
+                Накупил сувениров
+              </label>
+            </li>
+            <li class="achievement-info__item achievement-data" >
+              <label class="achievement-data__disc">
+                <input class="achievement-data__input" type="checkbox" name="you-shall-not-fall" checked>
+                Удержал башню
+              </label>
+            </li>
+            <li class="achievement-info__item achievement-data" >
+              <label class="achievement-data__disc">
+                <input class="achievement-data__input" type="checkbox" name="destroy-the-hotel">
+                Разгромил отель
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="competition-form__item author-contants">
+          <ul class="author-contants__list">
+            <li class="author-contants__item contants-data">
+              <label class="contants-data__disc">
+                Номер телефона
+                <input class="contants-data__input" type="tel" name="author-phone-number" value="Номер, пожалуйста">
+              </label>
+            </li>
+            <li class="author-contants__item contants-data">
+              <label class="contants-data__disc">
+                Адрес почты
+                <input class="contants-data__input" type="email" name="author-email" value="Введите почту *">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="competition-form__item pink-version">
+          <p class="pink-version-text">
+            с каким приложением путешествовали?
+          </p>
+          <ul class="pink-version__list">
+            <li class="pink-version__item">
+              <label class="pink-version__disc">
+                <input class="pink-version__input" type="radio" name="pink-vers" value="pink-ios" checked>
+                Pink для iOS
+              </label>
+            </li>
+            <li class="pink-version__item">
+              <label class="pink-version__disc">
+                <input class="pink-version__input" type="radio" name="pink-vers" value="pink-android">
+                Pink на Android
+              </label>
+            </li>
+            <li class="pink-version__item">
+              <label class="pink-version__disc">
+                <input class="pink-version__input" type="radio" name="pink-vers" value="pink-windows">
+                Windows Phone
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="competition-form__item pink-emotions">
+          <label class="pink-emotions__disc">
+            <p class="pink-emotions__text">
+              Опишите свои эмоции
+            </p>
+            <textarea class="pink-emotions__input" name="emotions">
+              Можно прям в красках, не
+              стесняясь в выражениях
+            </textarea>
+          </label>
+        </fieldset>
+        <button class="competition-form__button" type="submit">Отправить форму</button>
+        <p class="competition-form__note">
+          * - обязательные поля
+        </p>
+      </form>
     </main>
 
     <footer class="page-footer">
@@ -78,3 +206,5 @@
     </footer>
   </body>
 </html>
+
+<!--Всплывающие окна пока не стал делать. В мобайл макете их нет =)-->

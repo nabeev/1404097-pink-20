@@ -126,7 +126,157 @@
         Всем привет!
       </div>
 
-      <!-- В этом задании тут пробел, пока не нужно размечать -->
+      <section class="reviews">
+        <h2 class="visually-hidden">Отзывы о нас</h2>
+        <div class="reviews__wraper slider">
+          <div class="reviews__list slider__list">
+            <blockquote class="reviews__item slider__item">
+              <div class="reviews__author">
+                <span class="reviews__author-name">Николай Петров</span>
+                <span class="reviews__author-disc visually-hidden">25 лет, водитель трамвая</span>
+              </div>
+              <p class="rewiews__text">
+                "Это приложение перевернуло мой мир
+                и позволило по-новому взглянуть на
+                привычные серые вещи! А еще я
+                познакомился со своей будущей женой
+                в комментариях к выложенной
+                фотографии!"
+              </p>
+            </blockquote>
+            <blockquote class="reviews__item slider__item">
+              <div class="reviews__author">
+                <span class="reviews__author-name">Николай Петров</span>
+                <span class="reviews__author-disc visually-hidden">25 лет, водитель трамвая</span>
+              </div>
+              <p class="rewiews__text">
+                "Это приложение перевернуло мой мир
+                и позволило по-новому взглянуть на
+                привычные серые вещи! А еще я
+                познакомился со своей будущей женой
+                в комментариях к выложенной
+                фотографии!"
+              </p>
+            </blockquote>
+            <blockquote class="reviews__item slider__item">
+              <div class="reviews__author">
+                <span class="reviews__author-name">Николай Петров</span>
+                <span class="reviews__author-disc visually-hidden">25 лет, водитель трамвая</span>
+              </div>
+              <p class="rewiews__text">
+                "Это приложение перевернуло мой мир
+                и позволило по-новому взглянуть на
+                привычные серые вещи! А еще я
+                познакомился со своей будущей женой
+                в комментариях к выложенной
+                фотографии!"
+              </p>
+            </blockquote>
+            <!-- Не нашел на макете еще два отзыва в скрытых слоях, хм.. -->
+          </div>
+          <button class="slider__toggle slider__toggle--current">1</button>
+          <button class="slider__toggle">2</button>
+          <button class="slider__toggle">3</button>
+        </div>
+      </section>
+
+      <section class="price">
+        <h2 class="visually-hidden">Комплектации и цены</h2>
+        <div class="price__wrapper price-slider"> <!--другой слайдер, видимо будет по-другому работать - двигать таблицу-->
+          <table class="price__table price-slider__item">
+            <tr>
+              <th class="price__info">
+                <span class="price__name">База</span>
+                <span class="price__value">1,99 USD</span>
+              </th>
+              <th class="price__info price__info--hit">
+                <span class="price__name">Стандарт</span>
+                <span class="price__value">3,99 USD</span>
+              </th>
+              <th class="price__info price__info--hit">
+                <span class="price__name">Анлим</span>
+                <span class="price__value">9,99 USD</span>
+              </th>
+            </tr>
+            <tr>
+              <td class="price__part price__part--on">
+                Розовый фильтр
+              </td>
+              <td class="price__part price__part--on">
+                Розовый фильтр
+              </td>
+              <td class="price__part price__part--on">
+                Розовый фильтр
+              </td>
+            </tr>
+            <tr>
+              <td class="price__part price__part--off">
+                Смайлики
+              </td>
+              <td class="price__part price__part--on">
+                Смайлики
+              </td>
+              <td class="price__part price__part--on">
+                Смайлики
+              </td>
+            </tr>
+            <tr>
+              <td class="price__part price__part--off">
+                Комментарии
+              </td>
+              <td class="price__part price__part--off">
+                Комментарии
+              </td>
+              <td class="price__part price__part--on">
+                Комментарии
+              </td>
+            </tr>
+          </table>
+          <button class="price-slider__toggle">1</button>
+          <button class="price-slider__toggle slider__toggle--current">2</button>
+          <button class="price-slider__toggle">3</button>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <p class="contacts__text">
+          Остались вопросы?
+          Свяжитесь с нами!
+        </p>
+        <div class="contacts__wrapper">
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <p class="contacts__todo">
+                Звоните:
+              </p>
+              <p class="contacts__value">
+                <a href="tel:+78125556666">+7(812) 555-66-66</a>
+              </p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__todo">
+                Пишите:
+              </p>
+              <p class="contacts__value">
+                <a href="mailto:">mail@htmlacademy.ru</a>
+              </p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__todo">
+                Приезжайте в гости:
+              </p>
+              <p class="contacts__value">
+                ул. Большая Конюшенная, 19/8
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6031394417037!2d30.320890902861198!3d59.938727230580454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1596007327137!5m2!1sru!2sru" width="320" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
     </main>
 
     <footer class="page-footer">
