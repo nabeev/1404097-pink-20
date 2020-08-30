@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="page__body">
     <header class="page-header">
       <a class="page-header__logo">
         <img src="https://via.placeholder.com/74x23" width="74" height="23" alt="Pink - раскрась свою жизнь">
@@ -51,7 +52,7 @@
       </h1>
 
       <form class="competition-form" action="https://echo.htmlacademy.ru" method="POST">
-        <p>
+        <p class="competition-form__text">
           Поделитесь своей историей и получите
           шанс выиграть ценный приз - 1000
           миль на вашу бонусную карту!
@@ -168,15 +169,12 @@
             <p>
               Опишите свои эмоции
             </p>
-            <textarea name="emotions">
-              Можно прям в красках, не
-              стесняясь в выражениях
-            </textarea>
+            <textarea name="emotions">Можно прям в красках, не стесняясь в выражениях</textarea>
           </label>
         </fieldset>
         <button class="competition-form__button" type="submit">Отправить форму</button>
-        <p>
-          * - обязательные поля
+        <p class="competition-form__req">
+          <span>*</span> - обязательные поля
         </p>
       </form>
     </main>
@@ -184,7 +182,7 @@
     <footer class="page-footer">
       <div class="page-footer__wrapper">
         <a class="page-footer__logo" href="#">
-          <img src="https://via.placeholder.com/145x40" width="145" height="40" alt="Pink - раскрась свою жизнь">
+          <img src="img/logo-pink-blue-mobile.svg" width="145" height="40" alt="Pink - раскрась свою жизнь">
         </a>
         <div class="page-footer__social social">
           <ul class=social__list>
